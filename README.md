@@ -21,7 +21,7 @@ jacocoTestReport{
     reports {
             xml.enabled false
             csv.enabled false
-            html.destination "${buildDir}/jacocoHtml"
+            html.destination(file("${buildDir}/jacocoHtml"))
     }
 }
 ```
